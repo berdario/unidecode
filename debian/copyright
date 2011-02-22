@@ -1,0 +1,36 @@
+This work was packaged for Debian by:
+
+    Dario Bertini <berdario@gmail.com> on Tue, 22 Feb 2011 16:22:20 +0100
+
+It was downloaded from:
+
+    http://pypi.python.org/pypi/Unidecode
+
+Upstream Author(s):
+
+    Tomaž Šolc <tomaz solc at tablix org>
+
+Copyright:
+
+    Character transliteration tables:
+
+    Copyright 2001, Sean M. Burke <sburke@cpan.org>, all rights reserved.
+
+    Python code:
+
+    Copyright 2011, Tomaž Šolc <tomaz@zemanta.com>
+
+License:
+
+    This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl. (i.e. GPLv1 or later or Artistic License, http://dev.perl.org/licenses/ )
+    see "/usr/share/common-licenses/GPL",
+    see "/usr/share/common-licenses/GPL-3",
+    see "/usr/share/common-licenses/GPL-2",
+    see "/usr/share/common-licenses/Artistic".
+
+The Debian packaging is:
+
+    Copyright (C) 2011 Dario Bertini <berdario@gmail.com>
+    and is licensed under the same conditions as the source code.
+

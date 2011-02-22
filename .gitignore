@@ -1,3 +1,4 @@
+debian/python-unidecode
 build
 dist
 MANIFEST

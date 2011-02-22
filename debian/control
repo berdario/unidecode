@@ -1,0 +1,21 @@
+Source: python-unidecode
+Priority: extra
+Maintainer: Dario Bertini <berdario@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Section: libs
+Homepage: http://pypi.python.org/pypi/Unidecode
+Vcs-Git: http://code.zemanta.com/tsolc/git/unidecode
+XS-Python-Version: >= 2.5
+
+Package: python-unidecode
+Section: libdevel
+Architecture: all
+Depends: python
+XB-Python-Version: ${python:Versions}
+Description: US-ASCII transliterations of Unicode text
+ It often happens that you have non-Roman text data in Unicode, but you can't display it -- usually because you're trying to show it to a user via an application that doesn't support Unicode, or because the fonts you need aren't accessible. You could represent the Unicode characters as "???????" or " BA A0q0...", but that's nearly useless to the user who actually wants to read what the text says.
+ What Unidecode provides is a function, 'unidecode(...)' that takes Unicode data and tries to represent it in ASCII characters (i.e., the universally displayable characters between 0x00 and 0x7F). The representation is almost always an attempt at transliteration -- i.e., conveying, in Roman letters, the pronunciation expressed by the text in some other writing system.
+ For example 'unidecode(u"u5317u4EB0")' returns 'Bei Jing'.
+ This is a Python port of Text::Unidecode Perl module by Sean M. Burke <sburke@cpan.org>.<insert long description, indented with spaces>
+
